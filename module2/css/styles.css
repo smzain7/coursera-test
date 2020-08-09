@@ -4,6 +4,8 @@
 }
 h1 {
   text-align: center;
+  margin-bottom: 50px;
+  font-size: 175%;
 }
 /*for desktop devices*/
 @media (min-width: 992px) {
@@ -12,13 +14,13 @@ h1 {
     width:33.3%;
   }
 }
- @media (min-width: 768px and max-width: 991) {
+ @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     float: left;
     width:50%;
   }
 }
- @media (min-width: 768px and max-width: 991) {
+ @media (min-width: 768px) and (max-width: 991px) {
   .col-md-12 {
     float: left;
     width:100%;
@@ -30,16 +32,17 @@ h1 {
     width:100%;
   }
 }
-  div {
-    background-color: gray;
+div {
+    background-color: #cccccc;
     border: 3px solid black;
-    width: 95%;
     padding:0;
     margin-bottom: 10px;
+    margin-left:10px;
+    margin-right:10px;
 }
-  .content {
-    padding-top:30px;
-    margin:0;
+.content {
+  margin:10px;
+  margin-top:35px;
 }
 .title1 {
   float:right;
@@ -50,7 +53,7 @@ h1 {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: red;
+  background-color: #ffb3d9;
 }
 .title2 {
   float:right;
@@ -61,7 +64,8 @@ h1 {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: blue;
+  color: white;
+  background-color: #ff3333;
 }
 .title3 {
   float:right;
@@ -72,6 +76,6 @@ h1 {
   text-align: center;
   font-size: 125%;
   font-weight: bold;
-  background-color: green;
+  background-color: #ffff80;
 }
 
