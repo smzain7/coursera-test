@@ -17,13 +17,13 @@ $(function() {
   window.$decContrast = decContrast;
 
   function activePage () {
-    if (window.location.pathname == "/index.html") {
+    if (window.location.pathname == "/coursera-test/sample1/index.html") {
       document.getElementById("homeButton").style.textDecoration = "underline";
     }
-    if (window.location.pathname == "/about.html"){
+    if (window.location.pathname == "/coursera-test/sample1/about.html"){
       document.getElementById("aboutButton").style.textDecoration = "underline";
     }
-    if (window.location.pathname == "/contact.html"){
+    if (window.location.pathname == "/coursera-test/sample1/contact.html"){
       document.getElementById("contactButton").style.textDecoration = "underline";
     }
     console.log(window.location.pathname)
