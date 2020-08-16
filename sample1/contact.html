@@ -10,30 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
 
   </head>
-  <body id="body">
+  <body id="body" onload="$activePage()">
     <!-- START HEADER -->
     <header>
-      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="visible-xs">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-           <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-           <a class="nav-item nav-link" href="#">Features</a>
-           <a class="nav-item nav-link" href="#">Pricing</a>
-           <a class="nav-item nav-link disabled" href="#">Disabled</a>
-          </div>
-        </div>
-      </nav> -->
       <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
-            <!-- <a href="index.html" class="pull-left visible-md visible-lg">
-              <div id="logo-img" alt="Logo image"></div>
-            </a> -->
-
             <div class="navbar-brand">
               <a href="index.html"><h1>Syed Muhammad Zain</h1></a>
             </div>
@@ -49,15 +31,15 @@
           <div id="collapsable-nav" class="collapse navbar-collapse">
              <ul id="nav-list" class="nav navbar-nav navbar-right">
               <li>
-                <a href="index.html">
+                <a href="index.html" id="homeButton">
                   <br class="hidden-xs"> Home </hr> </a>
               </li>
               <li>
-                <a href="about.html">
+                <a href="about.html" id="aboutButton">
                   <br class="hidden-xs"> About </br> </a>
               </li>
               <li>
-                <a href="contact.html">
+                <a href="contact.html" id="contactButton">
                   <br class="hidden-xs"> Contact </br> </a>
               </li>
               <li>
