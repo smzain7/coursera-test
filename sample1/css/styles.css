@@ -1,0 +1,124 @@
+.navbar-brand {
+  font-family: 'Manrope', sans-serif;
+  padding: 0;
+  height: 70px;
+}
+.navbar-brand > a{
+  font-size: 25px; 
+  color: #019393;  
+}
+
+.navbar-brand > a:hover{
+  text-decoration: none; 
+}
+
+.navbar-default {
+    border-color: white;
+}
+#header-nav {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+}
+#collapsable-nav {
+  background-color: white;
+  height: auto;
+}
+#collapsable-nav > ul > li > a {
+  font-size: 25px;
+  font-family: 'Manrope', sans-serif;
+  /*position: relative;*/
+  /*float:right;*/
+  padding: 0px 10px 10px 10px;
+  text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+        margin-top: 25px;
+}
+.navbar-toggle:hover {
+    background-color: #ddd;
+}
+
+#nav-list {
+  padding-top: 12px;
+}
+
+.navbar-collapse {
+  border:none;
+}
+/*END HEADER*/
+
+/*START BODY*/
+#subheading {
+  font-family: 'Manrope', sans-serif; 
+  padding: 10px 10px 50px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.container1 {
+  margin: 0;
+  width: 100vw;
+}
+
+.jumbo {
+  padding:0px;
+  margin-left:-15px;
+  position: relative;
+  width: 100vw;
+  height: 40vw;
+  margin:0;
+  float:left;
+}
+
+#jumbotron1 {
+  background-image: url('../images/jumbo1.jpg');
+  background-size:100vw auto;
+  filter: contrast(100%);
+}
+#jumbotron2 {
+  background-image: url('../images/jumbo6.jpg');
+  background-size:100vw auto;
+}
+#jumbotron3 {
+  background-image: url('../images/jumbo3.jpg');
+  background-size:100vw auto;
+}
+
+.jumbotext {
+  position: absolute;
+  width: 100vw;
+  height: 40vw;
+  font-family: 'Manrope', sans-serif; 
+  color: #FBFBFB;
+  font-size:3.75vw;
+  line-height: 40vw;
+  text-align: center;
+}
+.glyphicon {
+  margin-bottom: : 45px;
+}
+#body {
+  overflow-x: hidden; 
+}
+
+/*END BODY*/
+
+/*START FOOTER*/
+.panel-footer {
+  background-color: white;
+  margin-top: 20px;
+  border: none;
+  font-family: 'Manrope', sans-serif; 
+  color: black;
+  font-size: 15px;
+}
+
+.footlink {
+  color: #019393
+}
+
