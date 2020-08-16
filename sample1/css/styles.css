@@ -106,7 +106,7 @@
   overflow-x: hidden; 
 }
 
-@media (max-width: 476px) {
+@media (max-width: 768px) {
   .jumbo {
     margin-left: 16px;
   }
