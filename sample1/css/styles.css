@@ -102,11 +102,15 @@
 .glyphicon {
   margin-bottom: : 45px;
 }
-#body {
-  overflow-x: hidden; 
-}
+
 
 @media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
   .jumbo {
     margin-left: 16px;
   }
@@ -121,8 +125,9 @@
     margin: 0 45vw 0 45vw;
   }
   #subheading {
-    padding: 0px;
-    margin-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100vw;
   }
 }
 
