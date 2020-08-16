@@ -17,7 +17,7 @@ $(function() {
   window.$decContrast = decContrast;
 
   function activePage () {
-    if (window.location.pathname == "/coursera-test/sample1/index.html" || window.location.pathname == "") {
+    if (window.location.pathname == "/coursera-test/sample1/index.html" || window.location.pathname == "/coursera-test/sample1/") {
       document.getElementById("homeButton").style.textDecoration = "underline";
     }
     if (window.location.pathname == "/coursera-test/sample1/about.html"){
