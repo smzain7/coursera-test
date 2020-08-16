@@ -71,7 +71,7 @@
   position: relative;
   width: 100vw;
   height: 40vw;
-  margin:0;
+  margin-left: 15px;
   float:left;
 }
 
@@ -81,7 +81,7 @@
   filter: contrast(100%);
 }
 #jumbotron2 {
-  background-image: url('../images/jumbo6.jpg');
+  background-image: url('../images/jumbo2.jpg');
   background-size:100vw auto;
 }
 #jumbotron3 {
@@ -104,6 +104,26 @@
 }
 #body {
   overflow-x: hidden; 
+}
+
+@media (max-width: 476px) {
+  .jumbo {
+    margin-left: 16px;
+  }
+  .navbar-brand {
+    width: 100vw;
+  }
+  .navbar-brand > a > h1 {
+    text-align: center;
+  }
+  #navbarToggle {
+    float: left;
+    margin: 0 45vw 0 45vw;
+  }
+  #subheading {
+    padding: 0px;
+    margin-bottom: 10px;
+  }
 }
 
 /*END BODY*/
