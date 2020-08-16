@@ -295,3 +295,37 @@
     height: 66.7vw;
   }
 }
+
+
+/*CONTACT PAGE*/
+#subheadingContact {
+  font-family: 'Manrope', sans-serif; 
+  padding: 10px 10px 20px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#form1 {
+   font-family: 'Manrope', sans-serif; 
+   text-align: center;
+}
+input {
+  width: 50vw;
+  clear: both;
+  text-align: center;
+}
+
+#querybox {
+  height: 200px;
+}
+
+#submitbutton {
+  background-color: #F9FFFF;
+  color: black;
+  border: 1px solid black;
+}
+
+#submitbutton:hover {
+  background-color: #019393;
+  color: white;
+}
